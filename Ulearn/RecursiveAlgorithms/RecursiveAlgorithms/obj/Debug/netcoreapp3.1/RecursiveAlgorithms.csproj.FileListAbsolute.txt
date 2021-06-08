@@ -1,0 +1,13 @@
+C:\Users\molch\source\repos\RecursiveAlgorithms\RecursiveAlgorithms\bin\Debug\netcoreapp3.1\RecursiveAlgorithms.exe
+C:\Users\molch\source\repos\RecursiveAlgorithms\RecursiveAlgorithms\bin\Debug\netcoreapp3.1\RecursiveAlgorithms.deps.json
+C:\Users\molch\source\repos\RecursiveAlgorithms\RecursiveAlgorithms\bin\Debug\netcoreapp3.1\RecursiveAlgorithms.runtimeconfig.json
+C:\Users\molch\source\repos\RecursiveAlgorithms\RecursiveAlgorithms\bin\Debug\netcoreapp3.1\RecursiveAlgorithms.runtimeconfig.dev.json
+C:\Users\molch\source\repos\RecursiveAlgorithms\RecursiveAlgorithms\bin\Debug\netcoreapp3.1\RecursiveAlgorithms.dll
+C:\Users\molch\source\repos\RecursiveAlgorithms\RecursiveAlgorithms\bin\Debug\netcoreapp3.1\RecursiveAlgorithms.pdb
+C:\Users\molch\source\repos\RecursiveAlgorithms\RecursiveAlgorithms\obj\Debug\netcoreapp3.1\RecursiveAlgorithms.csprojAssemblyReference.cache
+C:\Users\molch\source\repos\RecursiveAlgorithms\RecursiveAlgorithms\obj\Debug\netcoreapp3.1\RecursiveAlgorithms.AssemblyInfoInputs.cache
+C:\Users\molch\source\repos\RecursiveAlgorithms\RecursiveAlgorithms\obj\Debug\netcoreapp3.1\RecursiveAlgorithms.AssemblyInfo.cs
+C:\Users\molch\source\repos\RecursiveAlgorithms\RecursiveAlgorithms\obj\Debug\netcoreapp3.1\RecursiveAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\molch\source\repos\RecursiveAlgorithms\RecursiveAlgorithms\obj\Debug\netcoreapp3.1\RecursiveAlgorithms.dll
+C:\Users\molch\source\repos\RecursiveAlgorithms\RecursiveAlgorithms\obj\Debug\netcoreapp3.1\RecursiveAlgorithms.pdb
+C:\Users\molch\source\repos\RecursiveAlgorithms\RecursiveAlgorithms\obj\Debug\netcoreapp3.1\RecursiveAlgorithms.genruntimeconfig.cache

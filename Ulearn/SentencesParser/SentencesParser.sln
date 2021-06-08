@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentencesParser", "SentencesParser\SentencesParser.csproj", "{E511CCB5-6FBD-4E29-AF2B-7FBA1291B798}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E511CCB5-6FBD-4E29-AF2B-7FBA1291B798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E511CCB5-6FBD-4E29-AF2B-7FBA1291B798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E511CCB5-6FBD-4E29-AF2B-7FBA1291B798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E511CCB5-6FBD-4E29-AF2B-7FBA1291B798}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E88D8DDB-BEFC-455E-9DEF-BD5194CBCBED}
+	EndGlobalSection
+EndGlobal

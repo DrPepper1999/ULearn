@@ -1,0 +1,7 @@
+C:\Users\molch\source\repos\FrequencyAnalysis\FrequencyAnalysis\bin\Debug\FrequencyAnalysis.exe.config
+C:\Users\molch\source\repos\FrequencyAnalysis\FrequencyAnalysis\bin\Debug\FrequencyAnalysis.exe
+C:\Users\molch\source\repos\FrequencyAnalysis\FrequencyAnalysis\bin\Debug\FrequencyAnalysis.pdb
+C:\Users\molch\source\repos\FrequencyAnalysis\FrequencyAnalysis\obj\Debug\FrequencyAnalysis.csprojAssemblyReference.cache
+C:\Users\molch\source\repos\FrequencyAnalysis\FrequencyAnalysis\obj\Debug\FrequencyAnalysis.csproj.CoreCompileInputs.cache
+C:\Users\molch\source\repos\FrequencyAnalysis\FrequencyAnalysis\obj\Debug\FrequencyAnalysis.exe
+C:\Users\molch\source\repos\FrequencyAnalysis\FrequencyAnalysis\obj\Debug\FrequencyAnalysis.pdb

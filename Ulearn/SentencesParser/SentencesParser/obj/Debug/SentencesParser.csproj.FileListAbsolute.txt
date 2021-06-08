@@ -1,0 +1,7 @@
+C:\Users\molch\source\repos\SentencesParser\SentencesParser\bin\Debug\SentencesParser.exe.config
+C:\Users\molch\source\repos\SentencesParser\SentencesParser\bin\Debug\SentencesParser.exe
+C:\Users\molch\source\repos\SentencesParser\SentencesParser\bin\Debug\SentencesParser.pdb
+C:\Users\molch\source\repos\SentencesParser\SentencesParser\obj\Debug\SentencesParser.csprojAssemblyReference.cache
+C:\Users\molch\source\repos\SentencesParser\SentencesParser\obj\Debug\SentencesParser.csproj.CoreCompileInputs.cache
+C:\Users\molch\source\repos\SentencesParser\SentencesParser\obj\Debug\SentencesParser.exe
+C:\Users\molch\source\repos\SentencesParser\SentencesParser\obj\Debug\SentencesParser.pdb

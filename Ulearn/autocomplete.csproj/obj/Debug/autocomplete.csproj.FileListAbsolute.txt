@@ -1,0 +1,15 @@
+C:\Users\molch\source\repos\autocomplete.csproj\bin\Debug\dic\adjectives.txt
+C:\Users\molch\source\repos\autocomplete.csproj\bin\Debug\dic\nouns.txt
+C:\Users\molch\source\repos\autocomplete.csproj\bin\Debug\dic\verbs.txt
+C:\Users\molch\source\repos\autocomplete.csproj\bin\Debug\Autocomplete.exe.config
+C:\Users\molch\source\repos\autocomplete.csproj\bin\Debug\Autocomplete.exe
+C:\Users\molch\source\repos\autocomplete.csproj\bin\Debug\Autocomplete.pdb
+C:\Users\molch\source\repos\autocomplete.csproj\bin\Debug\nunit.framework.dll
+C:\Users\molch\source\repos\autocomplete.csproj\obj\Debug\autocomplete.csprojAssemblyReference.cache
+C:\Users\molch\source\repos\autocomplete.csproj\obj\Debug\Autocomplete.AutocompleteForm.resources
+C:\Users\molch\source\repos\autocomplete.csproj\obj\Debug\Autocomplete.Properties.Resources.resources
+C:\Users\molch\source\repos\autocomplete.csproj\obj\Debug\autocomplete.csproj.GenerateResource.cache
+C:\Users\molch\source\repos\autocomplete.csproj\obj\Debug\autocomplete.csproj.CoreCompileInputs.cache
+C:\Users\molch\source\repos\autocomplete.csproj\obj\Debug\autocomplete.csproj.CopyComplete
+C:\Users\molch\source\repos\autocomplete.csproj\obj\Debug\Autocomplete.exe
+C:\Users\molch\source\repos\autocomplete.csproj\obj\Debug\Autocomplete.pdb

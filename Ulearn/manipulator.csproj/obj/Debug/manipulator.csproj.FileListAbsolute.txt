@@ -1,0 +1,11 @@
+C:\Users\molch\source\repos\manipulator.csproj\bin\Debug\Manipulator.exe.config
+C:\Users\molch\source\repos\manipulator.csproj\bin\Debug\Manipulator.exe
+C:\Users\molch\source\repos\manipulator.csproj\bin\Debug\Manipulator.pdb
+C:\Users\molch\source\repos\manipulator.csproj\bin\Debug\nunit.framework.dll
+C:\Users\molch\source\repos\manipulator.csproj\obj\Debug\manipulator.csprojAssemblyReference.cache
+C:\Users\molch\source\repos\manipulator.csproj\obj\Debug\Manipulation.Properties.Resources.resources
+C:\Users\molch\source\repos\manipulator.csproj\obj\Debug\manipulator.csproj.GenerateResource.cache
+C:\Users\molch\source\repos\manipulator.csproj\obj\Debug\manipulator.csproj.CoreCompileInputs.cache
+C:\Users\molch\source\repos\manipulator.csproj\obj\Debug\manipulator.csproj.CopyComplete
+C:\Users\molch\source\repos\manipulator.csproj\obj\Debug\Manipulator.exe
+C:\Users\molch\source\repos\manipulator.csproj\obj\Debug\Manipulator.pdb
