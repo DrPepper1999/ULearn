@@ -14,15 +14,12 @@ namespace Digger
     {
         public CreatureCommand Act(int x, int y)
         {
-            return new CreatureCommand() { DeltaX = 0, DeltaY = 0};
+            return new CreatureCommand() { DeltaX = 0, DeltaY = 0 };
         }
 
         public bool DeadInConflict(ICreature conflictedObject)
         {
-            if (conflictedObject.GetImageFileName() == "Digger.png")
-                return true;
-
-                return false;
+            return conflictedObject.GetImageFileName() == "Digger.png";
         }
 
         public int GetDrawingPriority()
@@ -38,17 +35,59 @@ namespace Digger
 
     public class Player : ICreature
     {
+
+        public static int dX, dY = 0;
         public CreatureCommand Act(int x, int y)
         {
-            if (Game.KeyPressed == Keys.Right && x + 1 < Game.MapWidth && !IsEntity(x+1, y, "Sack.png"))
-                return new CreatureCommand() { DeltaX = 1, DeltaY = 0 };
-            if (Game.KeyPressed == Keys.Left && x - 1 > -1 && !IsEntity(x - 1, y, "Sack.png"))
-                return new CreatureCommand() { DeltaX = -1, DeltaY = 0 };
-            if (Game.KeyPressed == Keys.Up && y - 1 > -1 && !IsEntity(x, y-1, "Sack.png"))
-                return new CreatureCommand() { DeltaX = 0, DeltaY = -1 };
-            if (Game.KeyPressed == Keys.Down && y + 1 < Game.MapHeight && !IsEntity(x, y+1, "Sack.png"))
-                return new CreatureCommand() { DeltaX = 0, DeltaY = 1 };
-            return new CreatureCommand() { DeltaX = 0, DeltaY = 0 };
+            ControlPlayer();
+
+            if (!(x + dX >= 0 && x + dX < Game.MapWidth &&
+               y + dY >= 0 && y + dY < Game.MapHeight))
+                Stay();
+
+            if (!IsEntity(x + dX, y + dY, ""))
+            {
+                if (IsEntity(x + dX, y + dY, "Sack.png"))
+                    Stay();
+            }
+
+            return new CreatureCommand() { DeltaX = dX, DeltaY = dY };
+        }
+
+        private static void ControlPlayer()
+        {
+            switch (Game.KeyPressed)
+            {
+                case System.Windows.Forms.Keys.Left:
+                    dY = 0;
+                    dX = -1;
+                    break;
+
+                case System.Windows.Forms.Keys.Up:
+                    dY = -1;
+                    dX = 0;
+                    break;
+
+                case System.Windows.Forms.Keys.Right:
+                    dY = 0;
+                    dX = 1;
+                    break;
+
+                case System.Windows.Forms.Keys.Down:
+                    dY = 1;
+                    dX = 0;
+                    break;
+
+                default:
+                    Stay();
+                    break;
+            }
+        }
+
+        private static void Stay()
+        {
+            dX = 0;
+            dY = 0;
         }
 
         private static bool IsEntity(int x, int y, string entity)
@@ -58,11 +97,8 @@ namespace Digger
 
         public bool DeadInConflict(ICreature conflictedObject)
         {
-            if (conflictedObject.GetImageFileName() == "Sack.png" ||
-                conflictedObject.GetImageFileName() == "Monster.png")
-                return true;
-
-            return false;
+            return (conflictedObject.GetImageFileName() == "Sack.png" ||
+                conflictedObject.GetImageFileName() == "Monster.png");
         }
 
         public int GetDrawingPriority()
@@ -78,7 +114,6 @@ namespace Digger
 
     public class Sack : ICreature
     {
-
         private int countCellsFlown = 0;
         public CreatureCommand Act(int x, int y)
         {
@@ -125,7 +160,7 @@ namespace Digger
     {
         public CreatureCommand Act(int x, int y)
         {
-                return new CreatureCommand();
+            return new CreatureCommand();
         }
 
         public bool DeadInConflict(ICreature conflictedObject)
@@ -139,7 +174,7 @@ namespace Digger
             if (conflictedObject.GetImageFileName() == "Monster.png")
                 return true;
 
-                return false;
+            return false;
         }
 
         public int GetDrawingPriority()
@@ -179,11 +214,8 @@ namespace Digger
 
         public bool DeadInConflict(ICreature conflictedObject)
         {
-            if (conflictedObject.GetImageFileName() == "Sack.png" ||
-                conflictedObject.GetImageFileName() == "Monster.png")
-                return true;
-
-            return false;        
+            return (conflictedObject.GetImageFileName() == "Sack.png" ||
+                conflictedObject.GetImageFileName() == "Monster.png");
         }
 
         public int GetDrawingPriority()
